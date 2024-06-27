@@ -24,7 +24,7 @@ function Login({ onLogin }) {
     try {
       const user = await estate_backend.loginUser(id, password);
 
-      if (user) {
+      if (!(user.length === 0)) {
         // If user info is returned from backend, log in as citizen
         const citizenUser = { id: user.id, role: 'citizen' };
         onLogin(citizenUser);

@@ -12,7 +12,7 @@ function PlansList({ userId, handleEdit, handleDelete }) {
     if (userId) {
       fetchPlansByUserId(userId);
     } else {
-      fetchAllPlans();
+      
     }
   }, [userId]); // Fetch plans when userId changes
 
