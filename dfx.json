@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "estate_backend": {
+      "main": "src/estate_backend/main.mo",
+      "type": "motoko"
+    },
+    "estate_frontend": {
+      "dependencies": [
+        "estate_backend"
+      ],
+      "source": [
+        "src/estate_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "estate_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
