@@ -9,7 +9,7 @@ The Virtual Estate Planning Workshop Platform is designed to provide comprehensi
 This project is being developed by:
 
 1. **IZERE HIRWA Roger**  
-   Email: prodevroger@gmail.com
+   Email: roger@hdev.rw
 
 2. **UWAYEZU Jean Felix**  
    Email: felix@hdev.rw
